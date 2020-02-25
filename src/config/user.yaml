@@ -1,0 +1,41 @@
+# https://help.xmatters.com/ondemand/epic/included%20files.htm
+
+USERS:
+  USER_ID: User
+  WEB_LOGIN: User
+  FIRST_NAME: First Name
+  LAST_NAME: Last Name
+  SITE_NAME: Site
+
+EMAIL_DEVICES:
+  - Work Email
+  - Home Email
+
+VOICE_DEVICES:
+  - Work Phone
+  - Home Phone
+  - Mobile Phone
+  - Mobile Phone 2
+  - Personal Mobile Phone
+  - Personal Mobile Phone 2
+
+TEXT_DEVICES:
+  - SMS Phone
+  - SMS Phone 2
+  - Personal SMS Phone
+  - Personal SMS Phone 2
+
+CUSTOM_FIELDS:
+  - Department
+  - Job Title
+
+CUSTOM_ATTRIBUTES:
+
+DEVICE_ORDER:
+  - Name: Work Email
+    Delay: 0
+    Sequence: 0
+
+  - Name: SMS Phone
+    Delay: 2
+    Sequence: 1
